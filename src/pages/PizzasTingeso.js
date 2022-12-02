@@ -16,6 +16,20 @@ function PizzasTingeso() {
                             alt="Pizzas Tingeso"
                         />
                     </Navbar.Brand>
+
+                    <Navbar.Toggle />
+                    <Navbar.Collapse className="justify-content-end">
+                        <Navbar.Text>
+                            <a href="#login">
+                                <i className="bi bi-basket2 " style={
+                                    {fontSize: "2em", color: "white"}
+                                }></i>
+                            </a>
+
+
+                        </Navbar.Text>
+                    </Navbar.Collapse>
+
                 </Container>
             </Navbar>
         </>
