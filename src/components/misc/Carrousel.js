@@ -17,8 +17,8 @@ function MyCarrousel(){
                             <Carousel.Item>
                                 <div className="carrouselItem">
                                 <img
-                                    className="d-block w-100"
-                                    src="https://github.com/driques/pizzas-tingeso/blob/c2004df9ad502af192cec222d78180ac4eeaa407/src/img/pizza.jpg?raw=true"
+                                    className="slide"
+                                    src="https://github.com/driques/pizzas-tingeso/blob/3ac587fef3d83c83c4ac432e5975a7878ecd90f4/src/img/slide-1.jpg?raw=true"
                                     alt="First slide"
                                 />
                                 </div>
@@ -26,8 +26,8 @@ function MyCarrousel(){
                             <Carousel.Item>
                                 <div className="carrouselItem">
                                 <img
-                                    className="d-block w-100"
-                                    src="https://github.com/driques/pizzas-tingeso/blob/c2004df9ad502af192cec222d78180ac4eeaa407/src/img/pizza.jpg?raw=true"
+                                    className="slide"
+                                    src="https://github.com/driques/pizzas-tingeso/blob/3ac587fef3d83c83c4ac432e5975a7878ecd90f4/src/img/slide-2.jpg?raw=true"
                                     alt="Second slide"
                                 />
                                 </div>
