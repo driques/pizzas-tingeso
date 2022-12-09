@@ -44,17 +44,21 @@ function MyNav(){
                             </button>
                         </Navbar.Text>
                         <Navbar.Text>
+
+                            <Link to={"/"} style={{textDecoration:'none', color:"white"}}>
                             <div className="navButtons">
                                 <box-icon name='food-menu' type='solid' style = {
                                     {fontSize: "1em", fill: "white", marginRight: "0.5em", position: "relative", top: "0.4em"}
                                 }></box-icon>
                                 Menú
                             </div>
+                            </Link>
 
                         </Navbar.Text>
                         <Navbar.Text>
-                            <div className="navButtons" style={{}}>
 
+                            <Link to={"/map"} style={{textDecoration:'none', color:"white"}}>
+                            <div className="navButtons">
 
                                 <box-icon name='store-alt' type='solid' style = {
                                     {fontSize: "1em", fill: "white", marginRight: "0.5em", position: "relative", top: "0.4em"}
@@ -63,6 +67,8 @@ function MyNav(){
 
 
                             </div>
+
+                            </Link>
                         </Navbar.Text>
 
                         <Navbar.Text >

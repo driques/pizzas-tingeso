@@ -1,0 +1,11 @@
+/* map.css */
+.leaflet-container {
+    width: 40rem;
+    height: 40rem;
+}
+/*Centra el mapa en la pantalla*/
+.map {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

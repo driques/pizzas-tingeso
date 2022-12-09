@@ -7,7 +7,7 @@ import PizzasTingeso from "./pages/PizzasTingeso";
 import {Cart} from "./components/cart";
 import MakePizza from "./components/pizzas/MakePizza";
 import NewNav from "./components/misc/Navbar";
-
+import Map from "./components/misc/Map";
 function App() {
   return (
       <DataProvider>
@@ -18,6 +18,8 @@ function App() {
               <Routes>
                   <Route path="/" element={<PizzasTingeso />} exact />
                   <Route path="/makepizza" element={<MakePizza />} />
+                    <Route path="/map" element={<Map />} />
+
 
 
               </Routes>
