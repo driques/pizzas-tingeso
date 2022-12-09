@@ -58,7 +58,7 @@ export default function MakePizza() {
 
                                 <h2>Carnes</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"carne")} >
-                                    <option >Tipo carne</option>
+                                    <option >Tipo Carne</option>
                                     <option >Carne normal</option>
                                     <option >Carne mechada </option>
                                     <option >Pepperoni</option>
@@ -71,6 +71,7 @@ export default function MakePizza() {
                             <div className="makePizzaItem">
                                 <h2>Vegetales</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"vegetal")} >
+                                    <option >Tipo Vegetal</option>
                                     <option>Aceitunas</option>
 
                                     <option>Choclo</option>
@@ -90,6 +91,7 @@ export default function MakePizza() {
                             <div className="makePizzaItem">
                                 <h2>Tipo Queso</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"queso")} >
+                                    <option >Tipo Queso</option>
                                     <option >Queso Gauda</option>
                                     <option >Queso Mozzarella</option>
                                 </select>
@@ -98,6 +100,7 @@ export default function MakePizza() {
                             <div className="makePizzaItem">
                                 <h2>Cantidad Queso</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"cantidadQueso")} >
+                                    <option >Cantidad</option>
                                     <option >Normal</option>
                                     <option >Extra</option>
                                     <option >Doble</option>
@@ -108,6 +111,7 @@ export default function MakePizza() {
                             <div className="makePizzaItem">
                                 <h2>Tipo Masa</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"tipoMasa")} >
+                                    <option >Tipo Masa</option>
                                     <option >Normal</option>
                                     <option >Delgada</option>
                                 </select>
@@ -116,6 +120,7 @@ export default function MakePizza() {
                             <div className="makePizzaItem">
                                 <h2>Tamaño Pizza</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"tamanio")} >
+                                    <option >Tamaño</option>
                                     <option >Familiar</option>
                                     <option >Mediana</option>
                                     <option >Individual</option>
