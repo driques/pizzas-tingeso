@@ -58,6 +58,7 @@ export default function MakePizza() {
 
                                 <h2>Carnes</h2>
                                 <select value={ingredients} onChange={(event)=>addIngredient(event.target.value,"carne")} >
+                                    <option >Tipo carne</option>
                                     <option >Carne normal</option>
                                     <option >Carne mechada </option>
                                     <option >Pepperoni</option>
