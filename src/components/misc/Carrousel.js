@@ -13,28 +13,24 @@ function MyCarrousel(){
                 <div className="carrousel">
                 <Row>
                     <Col>
-                        <Carousel>
+                        <Carousel className="myCarousel">
                             <Carousel.Item>
+                                <div className="carrouselItem">
                                 <img
                                     className="d-block w-100"
-                                    src="src/img/pizza.jpg"
+                                    src="https://github.com/driques/pizzas-tingeso/blob/c2004df9ad502af192cec222d78180ac4eeaa407/src/img/pizza.jpg?raw=true"
                                     alt="First slide"
                                 />
-                                <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
+                                <div className="carrouselItem">
                                 <img
                                     className="d-block w-100"
-                                    src="src/img/pizza.jpg"
+                                    src="https://github.com/driques/pizzas-tingeso/blob/c2004df9ad502af192cec222d78180ac4eeaa407/src/img/pizza.jpg?raw=true"
                                     alt="Second slide"
                                 />
-                                <Carousel.Caption>
-                                    <h3>Second slide label</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
 
                         </Carousel>

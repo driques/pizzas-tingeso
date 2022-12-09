@@ -1,0 +1,29 @@
+.MyDrinks{
+    background-color: #ffffff;
+
+}
+/*Centra la imagen*/
+.drink-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*Centra el texto*/
+
+.carousel-control-next-icon:after
+{
+    content: url("https://img.icons8.com/ios/50/000000/chevron-right.png");
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: url("https://img.icons8.com/ios/50/000000/chevron-left.png");
+    font-size: 55px;
+    color: red;
+}
+.drink-info{
+    text-align: center;
+
+}

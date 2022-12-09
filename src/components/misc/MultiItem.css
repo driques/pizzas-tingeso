@@ -1,0 +1,11 @@
+/*Make a hover over image*/
+.my-item{
+   top: 6em;
+
+}
+.card{
+   transition: transform .5s;
+}
+.card:hover{
+   transform: scale(1.1);
+}

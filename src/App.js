@@ -1,24 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import {DataProvider} from "./context/DataProvider";
+import { Routes, Route } from "react-router-dom";
+import PizzasTingeso from "./pages/PizzasTingeso";
+import {Cart} from "./components/cart";
+import MakePizza from "./components/pizzas/MakePizza";
+import NewNav from "./components/misc/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <DataProvider>
+          <div className="App">
+              {/*Se agrega la nav para que se pueda utilizar en todas las paginas*/}
+              <NewNav/>
+              <Cart/>
+              <Routes>
+                  <Route path="/" element={<PizzasTingeso />} exact />
+                  <Route path="/makepizza" element={<MakePizza />} />
+
+
+              </Routes>
+          </div>
+    </DataProvider>
   );
 }
 

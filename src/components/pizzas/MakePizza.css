@@ -1,0 +1,53 @@
+/*Deja un espacio para la navbar*/
+.makePizza{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+
+}
+.makePizzaContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem 1rem;
+    padding: 1rem;
+    margin-top: 6rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+
+}
+.actualPizza{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    /*margin-left: rem;*/
+}
+.myPizza{
+    border-radius: 5%;
+    border: 1px solid #ccc;
+}
+.trashButton{
+    transition: all 0.3s ease;
+
+}
+.trashButton:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.addPizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.addPizza:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}

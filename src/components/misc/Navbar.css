@@ -1,0 +1,44 @@
+/* Modify the background color */
+.navbar-custom {
+    background-color: #c42c2c;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.cartButton{
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.cartButton:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+
+}
+.navButtons{
+    position: relative;
+    color: white;
+    top: 0.1em;
+    right: 0;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    background-color: #ad1a1a;
+    border-radius: 20%;
+    transition: all 0.3s ease-in-out;
+}
+.navButtons:hover{
+    transform: scale(1.1);
+    background-color: #eed6d6;
+    border-radius: 20%;
+    color: #ad1a1a;
+    transition: all background-color  0.2s ease-in-out;
+}

@@ -1,15 +1,20 @@
-import Container from 'react-bootstrap/Container';
+
 import './PizzasTingeso.css';
-import NewNav from "../components/Navbar";
-import Carrousel from "../components/Carrousel";
+import NewNav from "../components/misc/Navbar";
+import Carrousel from "../components/misc/Carrousel";
+import Footer from "../components/misc/Footer";
+import {PizzasList} from "../components/pizzas/PizzasList";
 function PizzasTingeso() {
     return(
         <>
-            <NewNav/>
-            <Container>
-                <h1> Pizzas Tingeso </h1>
-            </Container>
-            <Carrousel/>
+
+
+             <Carrousel/>
+                <br/>
+                <br/>
+                <PizzasList/>
+                <Footer/>
+
         </>
     );
 }
