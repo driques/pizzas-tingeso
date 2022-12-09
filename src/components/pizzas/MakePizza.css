@@ -51,3 +51,14 @@
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
+.buyButton{
+    border: #2cc440;
+    border-radius: 20%;
+    background-color: #2cc440;
+    color: white;
+    font-size: 1.5rem;
+}
+.buyButton:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
