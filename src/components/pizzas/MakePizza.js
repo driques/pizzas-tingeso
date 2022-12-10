@@ -135,7 +135,7 @@ export default function MakePizza() {
 
                         <div className="myPizza">
 
-                            <h1>Actual Pizza</h1>
+                            <h1>Mi Pizza</h1>
                             <h2>Carne</h2>
                             {ingredients.map((ingredient) => (
                                 <div className="actualPizzaItem">
@@ -258,7 +258,7 @@ export default function MakePizza() {
                         <h2>$ {ingredients.length*1000}</h2>
                     {/*    Boton de compra*/}
                         <button className="buyButton" onClick={()=>addCart(stringToJSON(ingredients)[0].id,"pizzaPersonalizada",stringToJSON(ingredients))}>
-                            Comprar
+                            Añadir al carrito
                         </button>
 
 

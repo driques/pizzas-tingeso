@@ -4,6 +4,7 @@ import 'boxicons';
 import './Cart.css';
 import {DataContext} from "../../context/DataProvider";
 import DrinksCarousel from "../misc/DrinksCarrousel";
+import {Link} from "react-router-dom";
 
 export const Cart = () => {
     //Se obtiene el contexto
@@ -126,7 +127,9 @@ export const Cart = () => {
                         <div className="cart__footer__total">
                             <h3>Total</h3>
                             <p>$ {total}</p>
-                            <button className="btn">Comprar</button>
+                            <Link to={"/buy"} className="cart__footer__button">
+                            <button className="btn" onClick={toogleFalse}>Comprar</button>
+                            </Link>
                         </div>
                     </div>
 
