@@ -36,7 +36,7 @@ export const PizzaItem = ({ id,  title, description, price, image}) =>{
                 <box-icon name="plus-circle"></box-icon>
             </div>
         </div>
-        
+
     </div>
     )
 

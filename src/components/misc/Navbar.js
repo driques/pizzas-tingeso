@@ -89,7 +89,9 @@ function MyNav(){
 
                         <Navbar.Text >
                             <Link to={"/makepizza"} style={{textDecoration:'none'}}>
-                            <div className="navButtons" >
+                            <div className="navButtons" style={{
+                                marginRight: "5em",
+                            }} >
                                 <box-icon name='pizza' type='solid' style = {
                                     {fontSize: "1em", fill: "white", marginRight: "0.5em", position: "relative", top: "0.4em"}
                                 }></box-icon>
