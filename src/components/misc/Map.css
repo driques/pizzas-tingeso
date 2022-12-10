@@ -2,6 +2,7 @@
 .leaflet-container {
     width: 40rem;
     height: 40rem;
+    z-index: 0;
 }
 /*Centra el mapa en la pantalla*/
 .map {

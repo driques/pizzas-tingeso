@@ -1,11 +1,11 @@
 /*Deja un espacio para la navbar*/
 .makePizza{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr;*/
     gap: 1rem 1rem;
     padding: 1rem;
-    margin-top: 5rem;
+    top: 5rem;
 
 }
 .makePizzaContainer{
@@ -53,7 +53,7 @@
 }
 .buyButton{
     border: #2cc440;
-    border-radius: 20%;
+    border-radius: 10%;
     background-color: #2cc440;
     color: white;
     font-size: 1.5rem;
@@ -61,4 +61,17 @@
 .buyButton:hover{
     transform: scale(1.1);
     transition: all 0.3s ease;
+}
+.totalPrice{
+
+    border : 1px solid #ccc;
+    border-radius: 5px;
+}
+.titleIngredients{
+    border : 1px solid #ccc;
+    border-radius: 5rem;
+    background-color: #c42c2c;
+    color : white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

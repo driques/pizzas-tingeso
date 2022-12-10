@@ -1,6 +1,4 @@
 import React,{useContext} from "react";
-import {Link} from "react-router-dom";
-import IMG from "../../img/Pizza-Boxes.jpg";
 import {DataContext} from "../../context/DataProvider";
 import "boxicons";
 
@@ -8,6 +6,14 @@ export const PizzaItem = ({ id,  title, description, price, image}) =>{
     const value = useContext(DataContext);
     const addCart = value.addCart;
 
+    function alertBootstrap() {
+        console.log("Agregado al carrito");
+       return(
+           <div className="alert alert-primary" role="alert">
+               Se ha agregado al carrito!
+           </div>
+       );
+    }
 
     return (
 
@@ -24,14 +30,13 @@ export const PizzaItem = ({ id,  title, description, price, image}) =>{
         </div>
 
         <div className="toCart">
-            <div className="myBtn" onClick={()=>addCart(id,"pizza")}>
+
+            <div className="myBtn" onClick={()=>{addCart(id,"pizza");alertBootstrap()}}>
                 Añadir
                 <box-icon name="plus-circle"></box-icon>
             </div>
         </div>
-
-
-
+        
     </div>
     )
 

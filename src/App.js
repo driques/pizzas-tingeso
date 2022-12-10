@@ -8,6 +8,8 @@ import {Cart} from "./components/cart";
 import MakePizza from "./components/pizzas/MakePizza";
 import NewNav from "./components/misc/Navbar";
 import Map from "./components/misc/Map";
+import Drinks from "./components/misc/Drinks";
+import Footer from "./components/misc/Footer";
 function App() {
   return (
       <DataProvider>
@@ -19,10 +21,9 @@ function App() {
                   <Route path="/" element={<PizzasTingeso />} exact />
                   <Route path="/makepizza" element={<MakePizza />} />
                     <Route path="/map" element={<Map />} />
-
-
-
+                  <Route path="/drinks" element={<Drinks />} />
               </Routes>
+              <Footer/>
           </div>
     </DataProvider>
   );

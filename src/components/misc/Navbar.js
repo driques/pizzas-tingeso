@@ -71,6 +71,22 @@ function MyNav(){
                             </Link>
                         </Navbar.Text>
 
+                        <Navbar.Text>
+
+                            <Link to={"/drinks"} style={{textDecoration:'none', color:"white"}}>
+                                <div className="navButtons">
+
+                                    <box-icon type='solid' name='drink' style = {
+                                        {fontSize: "1em", fill: "white", marginRight: "0.5em", position: "relative", top: "0.4em"}
+                                    }></box-icon>
+                                    Bebestibles y salsas
+
+
+                                </div>
+
+                            </Link>
+                        </Navbar.Text>
+
                         <Navbar.Text >
                             <Link to={"/makepizza"} style={{textDecoration:'none'}}>
                             <div className="navButtons" >

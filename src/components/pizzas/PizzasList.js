@@ -7,6 +7,7 @@ import {PizzaItem} from "./PizzaItem";
 export const PizzasList = () => {
     const value = useContext(DataContext);
     const [pizzas] = value.pizzas;
+
     console.log(pizzas);
 
     return (
@@ -24,9 +25,6 @@ export const PizzasList = () => {
 
                     ))
                 }
-
-
-
             </div>
 
 

@@ -47,6 +47,7 @@ export const DataProvider = (props) => {
             const data = drinks.filter(drink => {
                 return drink.id === id
             })
+
             setCart([...cart, ...data])
         }
         //Si el producto no está en el carrito, se agrega al carrito
