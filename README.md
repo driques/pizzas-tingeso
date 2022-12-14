@@ -29,6 +29,27 @@ cd piizas-tingeso
 npm run
 ```
 
+## Heuristicas de Nielsen utilizadas
+
+1. Visibilidad del estado del sistema
+En el carrito de compras, por ejemplo, al momento de agregar pizzas.
+
+2.Control y libertad
+El usuario puede deshacer y hacer a su antojo, pedir pizzas, eliminarlas, al igual que sus bebidas y salsas.
+
+3.Consistencia y estándares
+El uso de UI es simil en toda la app.
+
+4.Prevención de errores
+El usuario por ejemplo no puede llegar a la pasarela de pago sin pedir algo antes en el carrito.
+ 
+5. Reconocer en lugar de recordar
+El usuario se guia a traves de la UI.
+
+6. Estética y diseño minimalista
+La UI es constante a lo largo de la app.
+
+
 ## License
 
 MIT
