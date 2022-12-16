@@ -11,7 +11,7 @@ Además, React ofrece ventajas como su capacidad para actualizar y renderizar de
 
 ## Tecnologías
 
-Dillinger uses a number of open source projects to work properly:
+PizzasDin uses a number of open source projects to work properly:
 
 - [React JS] - Framework
 - [WebStorm] - IDE
